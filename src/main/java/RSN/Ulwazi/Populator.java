@@ -59,7 +59,7 @@ public class Populator implements CommandLineRunner {
         Nation djibouti= new Nation(,,"Djibouti");
         nationRepo.save(djibouti);
 
-        Nation 	drCongo= new Nation(,,"DR Congo");
+        Nation drCongo= new Nation(,,"DR Congo");
         nationRepo.save(drCongo);
 
         Nation egypt= new Nation(,,"Egypt");
@@ -98,26 +98,26 @@ public class Populator implements CommandLineRunner {
         Nation lesotho= new Nation(,,"Lesotho");
         nationRepo.save(lesotho);
 
-        Nation algeria= new Nation(,,"Liberia");
-        nationRepo.save(algeria);
+        Nation liberia= new Nation(,,"Liberia");
+        nationRepo.save(liberia);
 
-        Nation algeria= new Nation(,,"Libya");
-        nationRepo.save(algeria);
+        Nation libya= new Nation(,,"Libya");
+        nationRepo.save(libya);
 
-        Nation algeria= new Nation(,,"Madagascar");
-        nationRepo.save(algeria);
+        Nation madagascar= new Nation(,,"Madagascar");
+        nationRepo.save(madagascar);
 
-        Nation algeria= new Nation(,,"Malawi");
-        nationRepo.save(algeria);
+        Nation malawi= new Nation(,,"Malawi");
+        nationRepo.save(malawi);
 
-        Nation algeria= new Nation(,,"Mali");
-        nationRepo.save(algeria);
+        Nation mali= new Nation(,,"Mali");
+        nationRepo.save(mali);
 
-        Nation algeria= new Nation(,,"Mauritania");
-        nationRepo.save(algeria);
+        Nation mauritania= new Nation(,,"Mauritania");
+        nationRepo.save(mauritania);
 
-        Nation guinea= new Nation(,,"Mauritius");
-        nationRepo.save(guinea);
+        Nation mauritius= new Nation(,,"Mauritius");
+        nationRepo.save(mauritius);
 
         Nation morocco= new Nation(,,"Morocco");
         nationRepo.save(morocco);
