@@ -5,12 +5,12 @@ public class Nation {
     @Id
     @GeneratedValue
     private long id;
-    private String location;
+    private int population;
     private String description;
 
-    public Nation(long id, String location, String description) {
+    public Nation(long id, Integer population, String description) {
         this.id = id;
-        this.location = location;
+        this.population = population;
         this.description = description;
     }
 
